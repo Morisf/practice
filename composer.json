@@ -1,0 +1,24 @@
+{
+    "name": "moris/practice",
+    "description": "Just playing around programming by interfaces not implementation",
+    "autoload": {
+        "psr-4": {
+            "Moris\\Practice\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Moris\\Practice\\Test": "test/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Moris Finkel",
+            "email": "moris@moris.org.ua"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
+}
